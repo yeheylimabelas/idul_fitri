@@ -80,7 +80,7 @@ var tompositif = "Mau";
 var tomnegatif = "Engga";
 
 async function menuju() {
-  pesanwhatsapp = "Makasii ya " + nama + " udah mau maapin saya ><";
+  pesanwhatsapp = nama + " udah maapin kamu kok Emboiii ><";
   await swals.fire("OK!", "Kirim jawabannya ke WhatsApp aku, ya!", "success");
   window.location =
     "https://api.whatsapp.com/send?phone=6281326561934&text=" + pesanwhatsapp;
